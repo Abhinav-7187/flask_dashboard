@@ -1,0 +1,23 @@
+/* style.css */
+
+/* Light gray background behind the layout */
+body {
+  background-color: #f8f9fa;
+}
+
+/* A subtle shadow and rounded corners around the chart area */
+#chartArea {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+/* Customize bar color (if not overridden in script.js) */
+.bar {
+  fill: steelblue;
+}
+
+/* Optional heading style for chart titles */
+.chart-title {
+  font-weight: 600;
+  color: #333;
+}
